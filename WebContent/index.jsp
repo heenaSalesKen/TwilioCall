@@ -13,7 +13,7 @@
     
 </head>
 <body>
-<form action="TwilioCall" method="post">  
+<form action="/context-path/TwilioCall" method="post">  
  <input type="text" id="number" name="number"
       placeholder="Enter a phone number to call"/>
 
