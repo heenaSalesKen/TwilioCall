@@ -12,7 +12,7 @@ import com.twilio.twiml.Number;
 
 
 @SuppressWarnings("serial")
-@WebServlet("src/voice")
+@WebServlet("TwilioCall/src/voice")
 public class CallController extends HttpServlet {
   // Handle HTTP POST to /voice
   protected void doPost(HttpServletRequest request, HttpServletResponse response)
